@@ -35,16 +35,6 @@ scare.Name = "MyEarsBurn"
 scare.SoundId = getcustomasset(fileName)
 scare.PlaybackSpeed = 3
 scare.Volume = 3
-
-local distort = Instance.new("DistortionSoundEffect")
-distort.Parent = scare
-distort.Level = 0.75
-
-local eq = Instance.new("EqualizerSoundEffect")
-eq.HighGain = 10
-eq.MidGain = 10
-eq.LowGain = 3.7
-eq.Parent = scare
     
         task.spawn(function()
             while JumpscareGui.Parent do
