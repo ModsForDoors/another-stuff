@@ -31,7 +31,7 @@ local fileName = "Rebound.mp3"
 if not isfile(fileName) then writefile(fileName, game:HttpGet(url)) end
 local scare = Instance.new("Sound")
 scare.Parent = JumpscareGui
-scare.Name = "MyEarsBurn"
+scare.Name = "ReboundJumpscare"
 scare.SoundId = getcustomasset(fileName)
 scare.PlaybackSpeed = 1
 scare.Volume = 3
