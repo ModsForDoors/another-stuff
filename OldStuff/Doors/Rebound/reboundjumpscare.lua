@@ -36,10 +36,6 @@ scare.SoundId = getcustomasset(fileName)
 scare.PlaybackSpeed = 3
 scare.Volume = 3
 
-local shift = Instance.new("PitchShiftSoundEffect")
-shift.Octave = 0.5
-shift.Parent = scare
-
 local distort = Instance.new("DistortionSoundEffect")
 distort.Parent = scare
 distort.Level = 0.75
