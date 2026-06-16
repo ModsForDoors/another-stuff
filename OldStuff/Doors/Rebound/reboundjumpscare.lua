@@ -33,7 +33,7 @@ local scare = Instance.new("Sound")
 scare.Parent = JumpscareGui
 scare.Name = "MyEarsBurn"
 scare.SoundId = getcustomasset(fileName)
-scare.PlaybackSpeed = 3
+scare.PlaybackSpeed = 1
 scare.Volume = 3
     
         task.spawn(function()
