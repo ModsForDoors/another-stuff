@@ -164,7 +164,7 @@ local CONST = {
 			OnDespawning = function() end,
 			OnDespawned = function() end,
 			OnDamagePlayer = function() end,
-			CrucifixionOverwrite = function() end
+			CrucifixionOverwrite = nil
 		}
 	}
 }
